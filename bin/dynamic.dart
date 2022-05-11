@@ -10,6 +10,7 @@ void main(List<String> args) {
   print(variable);
 
   // Penulisan deklarasi var
+  // ignore: prefer_typing_uninitialized_variables
   var dynamiVar;
 
   dynamiVar = 10;
